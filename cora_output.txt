@@ -43,3 +43,26 @@ Epoch: 200, Loss: 1.5970, Train: 0.5929, Val: 0.4400, Test: 0.4270
 
 Best Validation Accuracy: 0.5860
 Test Accuracy at Best Val: 0.6250
+
+Output for model with multi-scale embeddings:
+Training Node2Vec embeddings...
+Epoch: 10, Loss: 1.2239
+Epoch: 20, Loss: 0.9059
+Epoch: 30, Loss: 0.8587
+Epoch: 40, Loss: 0.8443
+Epoch: 50, Loss: 0.8350
+
+Training PNA model with multi-scale embeddings....
+Epoch: 020, Loss: 0.0003, Train: 1.0000, Val: 0.4200, Test: 0.4300
+Epoch: 040, Loss: 0.0013, Train: 1.0000, Val: 0.4700, Test: 0.4910
+Epoch: 060, Loss: 0.0004, Train: 1.0000, Val: 0.4940, Test: 0.5280
+Epoch: 080, Loss: 0.0011, Train: 1.0000, Val: 0.5500, Test: 0.5890
+Epoch: 100, Loss: 0.0023, Train: 1.0000, Val: 0.6180, Test: 0.6510
+Epoch: 120, Loss: 0.0033, Train: 1.0000, Val: 0.6700, Test: 0.6850
+Epoch: 140, Loss: 0.0037, Train: 1.0000, Val: 0.6920, Test: 0.7100
+Epoch: 160, Loss: 0.0038, Train: 1.0000, Val: 0.6940, Test: 0.7210
+Epoch: 180, Loss: 0.0037, Train: 1.0000, Val: 0.7020, Test: 0.7240
+Epoch: 200, Loss: 0.0036, Train: 1.0000, Val: 0.7060, Test: 0.7250
+
+Best Validation Accuracy: 0.7060
+Test Accuracy at Best Val: 0.7210
