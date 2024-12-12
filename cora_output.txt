@@ -66,3 +66,90 @@ Epoch: 200, Loss: 0.0036, Train: 1.0000, Val: 0.7060, Test: 0.7250
 
 Best Validation Accuracy: 0.7060
 Test Accuracy at Best Val: 0.7210
+
+Output for model with attention:
+Training Node2Vec embeddings...
+Epoch: 10, Loss: 1.2228
+Epoch: 20, Loss: 0.9053
+Epoch: 30, Loss: 0.8589
+Epoch: 40, Loss: 0.8422
+Epoch: 50, Loss: 0.8359
+
+Epoch: 020, Loss: 0.1074, Train: 1.0000, Val: 0.5360, Test: 0.5560
+Epoch: 040, Loss: 0.0074, Train: 1.0000, Val: 0.5900, Test: 0.6180
+Epoch: 060, Loss: 0.0058, Train: 1.0000, Val: 0.6280, Test: 0.6420
+Epoch: 080, Loss: 0.0046, Train: 1.0000, Val: 0.6440, Test: 0.6740
+Epoch: 100, Loss: 4.7131, Train: 0.3286, Val: 0.0620, Test: 0.0850
+Epoch: 120, Loss: 0.0045, Train: 1.0000, Val: 0.5420, Test: 0.5310
+Epoch: 140, Loss: 0.0003, Train: 1.0000, Val: 0.5420, Test: 0.5370
+Epoch: 160, Loss: 0.0004, Train: 1.0000, Val: 0.5400, Test: 0.5430
+Epoch: 180, Loss: 0.0007, Train: 1.0000, Val: 0.5500, Test: 0.5520
+Epoch: 200, Loss: 0.0010, Train: 1.0000, Val: 0.5700, Test: 0.5710
+
+Best Validation Accuracy: 0.6500
+Test Accuracy at Best Val: 0.6720
+
+Testing params: lr=0.01, hidden_dim=64, weight_decay=1e-05, dropout_prob=0.2
+Validation Accuracy: 0.6800, Test Accuracy: 0.6610
+Testing params: lr=0.01, hidden_dim=64, weight_decay=1e-05, dropout_prob=0.3
+Validation Accuracy: 0.5680, Test Accuracy: 0.5860
+Testing params: lr=0.01, hidden_dim=64, weight_decay=1e-05, dropout_prob=0.5
+Validation Accuracy: 0.6180, Test Accuracy: 0.6200
+Testing params: lr=0.01, hidden_dim=64, weight_decay=0.0001, dropout_prob=0.2
+Validation Accuracy: 0.6620, Test Accuracy: 0.6910
+Testing params: lr=0.01, hidden_dim=64, weight_decay=0.0001, dropout_prob=0.3
+Validation Accuracy: 0.6940, Test Accuracy: 0.7070
+Testing params: lr=0.01, hidden_dim=64, weight_decay=0.0001, dropout_prob=0.5
+Validation Accuracy: 0.7100, Test Accuracy: 0.7230
+Testing params: lr=0.01, hidden_dim=64, weight_decay=0.001, dropout_prob=0.2
+Validation Accuracy: 0.6700, Test Accuracy: 0.6530
+Testing params: lr=0.01, hidden_dim=64, weight_decay=0.001, dropout_prob=0.3
+Validation Accuracy: 0.7000, Test Accuracy: 0.6980
+Testing params: lr=0.01, hidden_dim=64, weight_decay=0.001, dropout_prob=0.5
+Validation Accuracy: 0.6800, Test Accuracy: 0.6800
+Testing params: lr=0.001, hidden_dim=64, weight_decay=1e-05, dropout_prob=0.2
+Validation Accuracy: 0.6740, Test Accuracy: 0.6670
+Testing params: lr=0.001, hidden_dim=64, weight_decay=1e-05, dropout_prob=0.3
+Validation Accuracy: 0.6400, Test Accuracy: 0.6360
+Testing params: lr=0.001, hidden_dim=64, weight_decay=1e-05, dropout_prob=0.5
+Validation Accuracy: 0.6460, Test Accuracy: 0.6270
+Testing params: lr=0.001, hidden_dim=64, weight_decay=0.0001, dropout_prob=0.2
+Validation Accuracy: 0.6940, Test Accuracy: 0.7130
+Testing params: lr=0.001, hidden_dim=64, weight_decay=0.0001, dropout_prob=0.3
+Validation Accuracy: 0.6700, Test Accuracy: 0.6690
+Testing params: lr=0.001, hidden_dim=64, weight_decay=0.0001, dropout_prob=0.5
+Validation Accuracy: 0.6640, Test Accuracy: 0.6610
+Testing params: lr=0.001, hidden_dim=64, weight_decay=0.001, dropout_prob=0.2
+Validation Accuracy: 0.6840, Test Accuracy: 0.6840
+Testing params: lr=0.001, hidden_dim=64, weight_decay=0.001, dropout_prob=0.3
+Validation Accuracy: 0.6680, Test Accuracy: 0.6580
+Testing params: lr=0.001, hidden_dim=64, weight_decay=0.001, dropout_prob=0.5
+Validation Accuracy: 0.7020, Test Accuracy: 0.6810
+Testing params: lr=0.0001, hidden_dim=64, weight_decay=1e-05, dropout_prob=0.2
+Validation Accuracy: 0.7200, Test Accuracy: 0.7070
+Testing params: lr=0.0001, hidden_dim=64, weight_decay=1e-05, dropout_prob=0.3
+Validation Accuracy: 0.7180, Test Accuracy: 0.7010
+Testing params: lr=0.0001, hidden_dim=64, weight_decay=1e-05, dropout_prob=0.5
+Validation Accuracy: 0.6280, Test Accuracy: 0.6100
+Testing params: lr=0.0001, hidden_dim=64, weight_decay=0.0001, dropout_prob=0.2
+Validation Accuracy: 0.5520, Test Accuracy: 0.5270
+Testing params: lr=0.0001, hidden_dim=64, weight_decay=0.0001, dropout_prob=0.3
+Validation Accuracy: 0.6660, Test Accuracy: 0.6370
+Testing params: lr=0.0001, hidden_dim=64, weight_decay=0.0001, dropout_prob=0.5
+Validation Accuracy: 0.6880, Test Accuracy: 0.6720
+Testing params: lr=0.0001, hidden_dim=64, weight_decay=0.001, dropout_prob=0.2
+Validation Accuracy: 0.6160, Test Accuracy: 0.6410
+Testing params: lr=0.0001, hidden_dim=64, weight_decay=0.001, dropout_prob=0.3
+Validation Accuracy: 0.5960, Test Accuracy: 0.5820
+Testing params: lr=0.0001, hidden_dim=64, weight_decay=0.001, dropout_prob=0.5
+Validation Accuracy: 0.6460, Test Accuracy: 0.6390
+
+Best Validation Hyperparameters:
+Learning Rate: 0.0001, Hidden Dimension: 64, Weight Decay: 1e-05, Dropout Probability: 0.2
+Best Validation Accuracy: 0.7200
+Test Accuracy at Best Validation: 0.7070
+
+Best Test Hyperparameters:
+Learning Rate: 0.01, Hidden Dimension: 64, Weight Decay: 0.0001, Dropout Probability: 0.5
+Best Test Accuracy: 0.7230
+Validation Accuracy at Best Test: 0.7100
