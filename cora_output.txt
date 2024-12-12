@@ -1,3 +1,20 @@
+Output for PNA alone:
+
+Training PNA model...
+Epoch: 020, Loss: 0.0012, Train: 1.0000, Val: 0.5740, Test: 0.5660
+Epoch: 040, Loss: 0.0015, Train: 1.0000, Val: 0.5900, Test: 0.5810
+Epoch: 060, Loss: 0.0018, Train: 1.0000, Val: 0.6000, Test: 0.6000
+Epoch: 080, Loss: 0.0021, Train: 1.0000, Val: 0.6000, Test: 0.6130
+Epoch: 100, Loss: 0.0024, Train: 1.0000, Val: 0.6120, Test: 0.6130
+Epoch: 120, Loss: 0.0025, Train: 1.0000, Val: 0.6200, Test: 0.6250
+Epoch: 140, Loss: 0.0026, Train: 1.0000, Val: 0.6220, Test: 0.6330
+Epoch: 160, Loss: 0.0027, Train: 1.0000, Val: 0.6200, Test: 0.6420
+Epoch: 180, Loss: 0.0028, Train: 1.0000, Val: 0.6280, Test: 0.6460
+Epoch: 200, Loss: 0.0028, Train: 1.0000, Val: 0.6300, Test: 0.6450
+
+Best Validation Accuracy: 0.6320
+Test Accuracy at Best Val: 0.6440
+
 Output for the base Node2Vec model:
 Training Node2Vec embeddings...
 Epoch: 10, Loss: 1.2265
